@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    padding: 20px;
+
+    background-color: #f5f5f5;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #000;
+
+}
+
+/*  MAIN OUTER TABLE  */
+
+.invoice-table {
+
+    width: 355px;
+
+    margin: 0 auto;
+
+    border: 1px solid #000;
+
+    border-collapse: collapse;
+
+    background-color: #fff;
+
+}
+
+.invoice-table td {
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+/* COMPANY SECTION  */
+
+.company-section {
+
+    height: 69px;
+
+    padding: 12px 7px;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.company-section h2 {
+
+    margin: 0 0 4px 0;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+.company-section p {
+
+    margin: 0;
+
+    font-size: 6px;
+
+    line-height: 9px;
+
+}
+
+/* INVOICE INFORMATION */
+
+.invoice-info-section {
+
+    display: flex;
+
+    height: 54px;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.invoice-info-left {
+
+    width: 50%;
+
+    padding: 7px 14px;
+
+    border-right: 1px solid #000;
+
+}
+
+.invoice-info-right {
+
+    width: 50%;
+
+}
+
+/* INVOICE DETAILS TABLE  */
+
+.details-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+.details-table td {
+
+    padding: 0;
+
+    font-size: 6px;
+
+    line-height: 9px;
+
+}
+
+.details-table td:first-child {
+
+    width: 48%;
+
+    font-weight: bold;
+
+}
+
+/* BILL TO / SHIP TO HEADING  */
+
+.billing-heading {
+
+    display: flex;
+
+    height: 17px;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.bill-to-heading,
+.ship-to-heading {
+
+    width: 50%;
+
+    padding-top: 4px;
+
+    text-align: center;
+
+    font-size: 7px;
+
+    font-weight: bold;
+
+}
+
+.bill-to-heading {
+
+    border-right: 1px solid #000;
+
+}
+
+/* CUSTOMER SECTION  */
+
+.customer-section {
+
+    display: flex;
+
+    height: 54px;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.customer-box {
+
+    width: 50%;
+
+    padding: 10px 11px;
+
+}
+
+.customer-box:first-child {
+
+    border-right: 1px solid #000;
+
+}
+
+
+.customer-box h3 {
+
+    margin: 0 0 3px 0;
+
+    font-size: 8px;
+
+    font-weight: bold;
+
+}
+
+.customer-box p {
+
+    margin: 0;
+
+    font-size: 6px;
+
+    line-height: 8px;
+
+}
+
+/* PRODUCT SECTION  */
+
+.product-section {
+
+    width: 100%;
+
+}
+
+/* PRODUCT TABLE */
+
+.product-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    table-layout: fixed;
+
+}
+
+.product-table th,
+.product-table td {
+
+    border-right: 1px solid #000;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.product-table th:last-child,
+.product-table td:last-child {
+
+    border-right: none;
+
+}
+
+/* TABLE HEADER */
+
+.product-table th {
+
+    height: 16px;
+
+    padding: 0;
+
+    font-size: 6px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+/* TABLE BODY */
+
+.product-table td {
+
+    height: 40px;
+
+    padding: 4px 5px;
+
+    font-size: 6px;
+
+    vertical-align: middle;
+
+}
+
+/* COLUMN WIDTHS */
+
+.number-column {
+
+    width: 25px;
+
+    text-align: center;
+
+}
+
+.description-column {
+
+    width: auto;
+
+    text-align: left;
+
+}
+
+.qty-column {
+
+    width: 42px;
+
+    text-align: center;
+
+}
+
+.rate-column {
+
+    width: 42px;
+
+    text-align: right;
+
+}
+
+.amount-column {
+
+    width: 42px;
+
+    text-align: right;
+
+}
+
+/* ITEM DESCRIPTION */
+
+.item-description strong {
+
+    display: block;
+
+    margin-bottom: 2px;
+
+    font-size: 6px;
+
+}
+
+
+.item-description span {
+
+    display: block;
+
+    font-size: 5px;
+
+    line-height: 7px;
+
+}
+
+
+/* SUBTOTAL */
+
+.subtotal-section {
+
+    display: flex;
+
+    height: 21px;
+
+    border-bottom: 1px solid #000;
+
+}
+
+.subtotal-label {
+
+    flex: 1;
+
+    padding: 5px;
+
+    text-align: right;
+
+    font-size: 6px;
+
+    font-weight: bold;
+
+}
+
+.subtotal-value {
+
+    width: 42px;
+
+    padding: 5px 3px;
+
+    border-left: 1px solid #000;
+
+    text-align: right;
+
+    font-size: 6px;
+
+    font-weight: bold;
+
+}
+
+
+/* FOOTER */
+
+.footer-section {
+
+    height: 135px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+.footer-section h1 {
+
+    margin: 0;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+/*  RESPONSIVE */
+
+@media (max-width: 500px) {
+
+    body {
+
+        padding: 10px;
+
+    }
+
+    .invoice-table {
+
+        width: 100%;
+
+        max-width: 355px;
+
+    }
+
+}
+
+
